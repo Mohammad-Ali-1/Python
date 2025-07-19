@@ -1,3 +1,6 @@
+
+
+
 a = complex(8,2)
 print(a)
 b = "harry"
@@ -16,3 +19,5 @@ print(tuple1)
 
 dict1={"name":"sakshi","age":20,"canVote":True}
 print(dict1)
+a2= "_Alias"
+print(a2)
