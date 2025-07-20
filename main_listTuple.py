@@ -63,5 +63,32 @@ print(tup[1:-2])
 if 342 in tup:
     print("Yes")
 
-tup1=tup[1:4]
-print(tup1)
+# tup1=tup[1:4]
+# print(tup1)
+counteries=("Spain","Italy","India","England","Germany")
+temp=list(counteries)
+temp.append("Russia") # add item
+temp.pop(3) # remove item
+temp[2]="Finland" # change item
+counteries=tuple(temp)
+print(counteries)
+
+counteries1=("Pakistan","Afghanistan","Bangladesh","SriLanka")
+counteries2=("Vietnam","India","China")
+southEastAsia=counteries1+counteries2
+print(southEastAsia)
+
+tuple1=(0,1,2,3,2,3,1,3,2)
+res=tuple1.count(3)
+res1=tuple1.index(3)
+res2=tuple1.index(3,4,8)
+res3=len(tuple1)
+print('Count of 3 in tuple1 is:',res)
+print('First occurence of 3 is:',res1)
+print('First occurence of 3 is:',res2)
+print('Length of tuple1 is:',res3)
+
+
+
+
+
